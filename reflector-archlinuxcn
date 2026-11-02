@@ -1,0 +1,50 @@
+#!/usr/bin/env python3
+"""reflector with the archlinuxcn repository layout.
+
+reflector hardcodes two arch-server assumptions:
+
+  Server = {url}$repo/os/$arch          (mirrorlist output)
+  {url}extra/os/x86_64/extra.db         (download used by --sort rate)
+
+archlinuxcn serves '<url>x86_64/archlinuxcn.db', so this wrapper overrides the
+two templates and then runs reflector unchanged. Every option, filter, cache and
+sort order behaves exactly like stock reflector:
+
+  reflector-archlinuxcn --url https://example.org/mirrors.json \\
+      --country CN --sort score --latest 5 --save /etc/pacman.d/archlinuxcn-mirrorlist
+
+The JSON's "url" must be the repository root ('https://host/archlinuxcn/'), which
+is what update-mirrors.py writes. '--info' is fixed up as well.
+"""
+
+import contextlib
+import io
+import sys
+
+try:
+    import Reflector
+except ImportError as exc:  # provided by the 'reflector' package
+    raise SystemExit(
+        "reflector-archlinuxcn: the 'reflector' package is not installed"
+    ) from exc
+
+Reflector.MIRROR_URL_FORMAT = "{0}{2}"
+Reflector.MIRRORLIST_ENTRY_FORMAT = "Server = " + Reflector.MIRROR_URL_FORMAT + "\n"
+Reflector.DB_SUBPATH = "x86_64/archlinuxcn.db"
+
+_original_print_mirror_info = Reflector.print_mirror_info
+
+
+def print_mirror_info(mirrors, time_fmt=Reflector.DISPLAY_TIME_FORMAT):
+    """Stock output, with reflector's fixed '/$repo/os/' suffix corrected."""
+    buffer = io.StringIO()
+    with contextlib.redirect_stdout(buffer):
+        _original_print_mirror_info(mirrors, time_fmt)
+    sys.stdout.write(buffer.getvalue().replace("$repo/os/$arch", "$arch"))
+
+
+Reflector.print_mirror_info = print_mirror_info
+
+
+if __name__ == "__main__":
+    sys.exit(Reflector.run_main(configure_logging=True))

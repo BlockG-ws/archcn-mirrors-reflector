@@ -1,0 +1,52 @@
+name: Update mirror status
+
+on:
+  schedule:
+    # GitHub delays or drops scheduled runs under load; the workflow is
+    # idempotent, so a late run is harmless.
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - update-mirrors.py
+      - .github/workflows/update-mirrors.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mirror-status
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check mirrors
+        run: |
+          python3 update-mirrors.py \
+            --output mirrors.json \
+            --prune-days 2 \
+            --timeout 30 \
+            --workers 12
+
+      - name: Commit status document
+        run: |
+          set -eu
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          files="mirrors.json mirrors.json.history.jsonl"
+          if [ -z "$(git status --porcelain -- $files)" ]; then
+            echo "no changes"
+            exit 0
+          fi
+
+          git add $files
+          git commit -m "mirrors: refresh $(date -u +%Y-%m-%dT%H:%M:%SZ) [skip ci]"
+          git pull --rebase --autostash
+          git push
