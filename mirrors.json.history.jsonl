@@ -1,39 +1,3 @@
-{"duration":1.3667,"error":null,"last_sync":1795447950,"ok":true,"t":1795447955.054,"url":"https://repo.archlinuxcn.org/"}
-{"duration":4.1468,"error":null,"last_sync":1795447878,"ok":true,"t":1795447955.054,"url":"https://mirrors.cernet.edu.cn/archlinuxcn/"}
-{"duration":3.1787,"error":null,"last_sync":1795426850,"ok":true,"t":1795447955.054,"url":"https://mirrors.bfsu.edu.cn/archlinuxcn/"}
-{"duration":3.5987,"error":null,"last_sync":1795354484,"ok":true,"t":1795447955.054,"url":"https://mirrors.pku.edu.cn/archlinuxcn/"}
-{"duration":4.992,"error":null,"last_sync":1795419985,"ok":true,"t":1795447955.054,"url":"https://mirrors.cloud.tencent.com/archlinuxcn/"}
-{"duration":0.8997,"error":"HTTP 403 Forbidden","last_sync":null,"ok":false,"t":1795447955.054,"url":"https://mirrors.163.com/archlinux-cn/"}
-{"duration":2.04,"error":null,"last_sync":1795426850,"ok":true,"t":1795447955.054,"url":"https://mirrors.aliyun.com/archlinuxcn/"}
-{"duration":1.6037,"error":null,"last_sync":1795387003,"ok":true,"t":1795447955.054,"url":"https://repo.huaweicloud.com/archlinuxcn/"}
-{"duration":2.7841,"error":null,"last_sync":1795447878,"ok":true,"t":1795447955.054,"url":"https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/"}
-{"duration":3.8296,"error":null,"last_sync":1795447686,"ok":true,"t":1795447955.054,"url":"https://mirrors.ustc.edu.cn/archlinuxcn/"}
-{"duration":3.1827,"error":null,"last_sync":1795433704,"ok":true,"t":1795447955.054,"url":"https://mirrors.qlu.edu.cn/archlinuxcn/"}
-{"duration":3.3428,"error":null,"last_sync":1795426568,"ok":true,"t":1795447955.054,"url":"https://mirrors.hit.edu.cn/archlinuxcn/"}
-{"duration":2.6168,"error":null,"last_sync":1795447878,"ok":true,"t":1795447955.054,"url":"https://mirrors.jlu.edu.cn/archlinuxcn/"}
-{"duration":null,"error":"TimeoutError: The read operation timed out","last_sync":null,"ok":false,"t":1795447955.054,"url":"https://mirrors.zju.edu.cn/archlinuxcn/"}
-{"duration":3.5294,"error":null,"last_sync":1795414626,"ok":true,"t":1795447955.054,"url":"https://mirror.sjtu.edu.cn/archlinux-cn/"}
-{"duration":3.7551,"error":null,"last_sync":1795447878,"ok":true,"t":1795447955.054,"url":"https://mirrors.nju.edu.cn/archlinuxcn/"}
-{"duration":3.7544,"error":null,"last_sync":1795426850,"ok":true,"t":1795447955.054,"url":"https://mirrors.sustech.edu.cn/archlinuxcn/"}
-{"duration":2.8436,"error":null,"last_sync":1795446255,"ok":true,"t":1795447955.054,"url":"https://mirrors.hust.edu.cn/archlinuxcn/"}
-{"duration":5.8852,"error":null,"last_sync":1795447686,"ok":true,"t":1795447955.054,"url":"https://mirrors.wsyu.edu.cn/archlinuxcn/"}
-{"duration":3.7866,"error":null,"last_sync":1795354484,"ok":true,"t":1795447955.054,"url":"https://mirror.lzu.edu.cn/archlinuxcn/"}
-{"duration":3.285,"error":null,"last_sync":1795433704,"ok":true,"t":1795447955.054,"url":"https://mirrors.xjtu.edu.cn/archlinuxcn/"}
-{"duration":3.5267,"error":null,"last_sync":1795447878,"ok":true,"t":1795447955.054,"url":"https://mirror.nyist.edu.cn/archlinuxcn/"}
-{"duration":4.9064,"error":null,"last_sync":1791732540,"ok":true,"t":1795447955.054,"url":"https://mirrors.shanghaitech.edu.cn/archlinuxcn/"}
-{"duration":4.0188,"error":null,"last_sync":1793122971,"ok":true,"t":1795447955.054,"url":"https://mirror.iscas.ac.cn/archlinuxcn/"}
-{"duration":0.2007,"error":null,"last_sync":1795447955,"ok":true,"t":1795447955.054,"url":"https://mirrors.cicku.me/archlinuxcn/"}
-{"duration":2.8559,"error":null,"last_sync":1795447686,"ok":true,"t":1795447955.054,"url":"https://archlinux.ccns.ncku.edu.tw/archlinuxcn/"}
-{"duration":1.5999,"error":null,"last_sync":1795433704,"ok":true,"t":1795447955.054,"url":"https://mirror.twds.com.tw/archlinuxcn/"}
-{"duration":1.8792,"error":null,"last_sync":1795433704,"ok":true,"t":1795447955.054,"url":"https://mirrors.xtom.hk/archlinuxcn/"}
-{"duration":2.0364,"error":null,"last_sync":1795433704,"ok":true,"t":1795447955.054,"url":"https://mirrors.xtom.sg/archlinuxcn/"}
-{"duration":0.5503,"error":null,"last_sync":1795433704,"ok":true,"t":1795447955.054,"url":"https://mirrors.xtom.us/archlinuxcn/"}
-{"duration":1.1448,"error":null,"last_sync":1795433704,"ok":true,"t":1795447955.054,"url":"https://mirrors.xtom.nl/archlinuxcn/"}
-{"duration":1.2403,"error":null,"last_sync":1795433704,"ok":true,"t":1795447955.054,"url":"https://mirrors.xtom.de/archlinuxcn/"}
-{"duration":1.6023,"error":null,"last_sync":1795433704,"ok":true,"t":1795447955.054,"url":"https://mirrors.xtom.ee/archlinuxcn/"}
-{"duration":1.4936,"error":null,"last_sync":1795433704,"ok":true,"t":1795447955.054,"url":"https://mirrors.xtom.jp/archlinuxcn/"}
-{"duration":1.9365,"error":null,"last_sync":1795433704,"ok":true,"t":1795447955.054,"url":"https://mirrors.xtom.au/archlinuxcn/"}
-{"duration":0.5373,"error":null,"last_sync":1795433704,"ok":true,"t":1795447955.054,"url":"https://mirrors.ocf.berkeley.edu/archlinuxcn/"}
 {"duration":2.7621,"error":null,"last_sync":1795481686,"ok":true,"t":1795488094.427,"url":"https://repo.archlinuxcn.org/"}
 {"duration":4.9558,"error":null,"last_sync":1795481686,"ok":true,"t":1795488094.427,"url":"https://mirrors.cernet.edu.cn/archlinuxcn/"}
 {"duration":3.3263,"error":null,"last_sync":1795476987,"ok":true,"t":1795488094.427,"url":"https://mirrors.bfsu.edu.cn/archlinuxcn/"}
@@ -178,3 +142,39 @@
 {"duration":1.416,"error":null,"last_sync":1795565141,"ok":true,"t":1795584779.95,"url":"https://mirrors.xtom.jp/archlinuxcn/"}
 {"duration":1.6113,"error":null,"last_sync":1795581491,"ok":true,"t":1795584779.95,"url":"https://mirrors.xtom.au/archlinuxcn/"}
 {"duration":0.325,"error":null,"last_sync":1795577376,"ok":true,"t":1795584779.95,"url":"https://mirrors.ocf.berkeley.edu/archlinuxcn/"}
+{"duration":1.4649,"error":null,"last_sync":1795622318,"ok":true,"t":1795624215.861,"url":"https://repo.archlinuxcn.org/"}
+{"duration":8.249,"error":null,"last_sync":1795622318,"ok":true,"t":1795624215.861,"url":"https://mirrors.cernet.edu.cn/archlinuxcn/"}
+{"duration":5.0806,"error":null,"last_sync":1795602211,"ok":true,"t":1795624215.861,"url":"https://mirrors.bfsu.edu.cn/archlinuxcn/"}
+{"duration":13.4276,"error":null,"last_sync":1795526369,"ok":true,"t":1795624215.861,"url":"https://mirrors.pku.edu.cn/archlinuxcn/"}
+{"duration":0.7721,"error":null,"last_sync":1795590495,"ok":true,"t":1795624215.861,"url":"https://mirrors.cloud.tencent.com/archlinuxcn/"}
+{"duration":10.5487,"error":"HTTP 403 Forbidden","last_sync":null,"ok":false,"t":1795624215.861,"url":"https://mirrors.163.com/archlinux-cn/"}
+{"duration":11.2166,"error":null,"last_sync":1795565141,"ok":true,"t":1795624215.861,"url":"https://mirrors.aliyun.com/archlinuxcn/"}
+{"duration":2.0991,"error":null,"last_sync":1795560105,"ok":true,"t":1795624215.861,"url":"https://repo.huaweicloud.com/archlinuxcn/"}
+{"duration":2.7474,"error":null,"last_sync":1795622318,"ok":true,"t":1795624215.861,"url":"https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/"}
+{"duration":null,"error":"URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>","last_sync":null,"ok":false,"t":1795624215.861,"url":"https://mirrors.ustc.edu.cn/archlinuxcn/"}
+{"duration":7.8144,"error":null,"last_sync":1795616994,"ok":true,"t":1795624215.861,"url":"https://mirrors.qlu.edu.cn/archlinuxcn/"}
+{"duration":null,"error":"URLError: <urlopen error _ssl.c:1063: The handshake operation timed out>","last_sync":null,"ok":false,"t":1795624215.861,"url":"https://mirrors.hit.edu.cn/archlinuxcn/"}
+{"duration":3.4712,"error":null,"last_sync":1795622318,"ok":true,"t":1795624215.861,"url":"https://mirrors.jlu.edu.cn/archlinuxcn/"}
+{"duration":276.2895,"error":null,"last_sync":1795617852,"ok":true,"t":1795624215.861,"url":"https://mirrors.zju.edu.cn/archlinuxcn/"}
+{"duration":null,"error":"URLError: <urlopen error timed out>","last_sync":null,"ok":false,"t":1795624215.861,"url":"https://mirror.sjtu.edu.cn/archlinux-cn/"}
+{"duration":8.7431,"error":null,"last_sync":1795622318,"ok":true,"t":1795624215.861,"url":"https://mirrors.nju.edu.cn/archlinuxcn/"}
+{"duration":6.0665,"error":null,"last_sync":1795616994,"ok":true,"t":1795624215.861,"url":"https://mirrors.sustech.edu.cn/archlinuxcn/"}
+{"duration":2.2273,"error":null,"last_sync":1795617852,"ok":true,"t":1795624215.861,"url":"https://mirrors.hust.edu.cn/archlinuxcn/"}
+{"duration":1.9469,"error":null,"last_sync":1795622318,"ok":true,"t":1795624215.861,"url":"https://mirrors.wsyu.edu.cn/archlinuxcn/"}
+{"duration":3.2706,"error":null,"last_sync":1795526369,"ok":true,"t":1795624215.861,"url":"https://mirror.lzu.edu.cn/archlinuxcn/"}
+{"duration":null,"error":"URLError: <urlopen error [Errno -3] Temporary failure in name resolution>","last_sync":null,"ok":false,"t":1795624215.861,"url":"https://mirrors.xjtu.edu.cn/archlinuxcn/"}
+{"duration":5.8871,"error":null,"last_sync":1795622318,"ok":true,"t":1795624215.861,"url":"https://mirror.nyist.edu.cn/archlinuxcn/"}
+{"duration":2.8855,"error":null,"last_sync":1791732540,"ok":true,"t":1795624215.861,"url":"https://mirrors.shanghaitech.edu.cn/archlinuxcn/"}
+{"duration":3.823,"error":null,"last_sync":1793122971,"ok":true,"t":1795624215.861,"url":"https://mirror.iscas.ac.cn/archlinuxcn/"}
+{"duration":0.2749,"error":null,"last_sync":1795624215,"ok":true,"t":1795624215.861,"url":"https://mirrors.cicku.me/archlinuxcn/"}
+{"duration":3.127,"error":null,"last_sync":1795622318,"ok":true,"t":1795624215.861,"url":"https://archlinux.ccns.ncku.edu.tw/archlinuxcn/"}
+{"duration":1.3067,"error":null,"last_sync":1795622318,"ok":true,"t":1795624215.861,"url":"https://mirror.twds.com.tw/archlinuxcn/"}
+{"duration":1.5289,"error":null,"last_sync":1795617852,"ok":true,"t":1795624215.861,"url":"https://mirrors.xtom.hk/archlinuxcn/"}
+{"duration":1.5504,"error":null,"last_sync":1795615002,"ok":true,"t":1795624215.861,"url":"https://mirrors.xtom.sg/archlinuxcn/"}
+{"duration":0.3543,"error":null,"last_sync":1795615002,"ok":true,"t":1795624215.861,"url":"https://mirrors.xtom.us/archlinuxcn/"}
+{"duration":2.8413,"error":null,"last_sync":1795617852,"ok":true,"t":1795624215.861,"url":"https://mirrors.xtom.nl/archlinuxcn/"}
+{"duration":1.5316,"error":null,"last_sync":1795615002,"ok":true,"t":1795624215.861,"url":"https://mirrors.xtom.de/archlinuxcn/"}
+{"duration":1.7208,"error":null,"last_sync":1795615002,"ok":true,"t":1795624215.861,"url":"https://mirrors.xtom.ee/archlinuxcn/"}
+{"duration":1.1765,"error":null,"last_sync":1795615002,"ok":true,"t":1795624215.861,"url":"https://mirrors.xtom.jp/archlinuxcn/"}
+{"duration":1.674,"error":null,"last_sync":1795617852,"ok":true,"t":1795624215.861,"url":"https://mirrors.xtom.au/archlinuxcn/"}
+{"duration":0.4337,"error":null,"last_sync":1795622318,"ok":true,"t":1795624215.861,"url":"https://mirrors.ocf.berkeley.edu/archlinuxcn/"}
